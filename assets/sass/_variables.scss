@@ -1,0 +1,61 @@
+// Body
+$body-bg: #fff;
+
+// Borders
+$laravel-border-color: darken($body-bg, 10%);
+$list-group-border-color: $laravel-border-color;
+
+$vehicled-border-color: $laravel-border-color;
+
+// Brands
+//$primary: #F04A2E;
+//$info: #8eb4cb;
+//$success: #2ab27b;
+//$warning: #cbb956;
+//$danger: #bf5329;
+
+// Typography
+$font-family-sans-serif: "Raleway", sans-serif;
+$font-size-base: .875rem; // 14px
+$line-height-base: 1.6;
+$text-color: #636b6f;
+$text-btn-color: #F2F2F2;
+
+// Inputs
+$input-border-color: lighten($text-color, 40%);
+$input-placeholder-color: lighten($text-color, 30%);
+
+//navbar - bootstrap
+// Color Variables
+// Bootstrap Color Defaults
+$white: #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #868e96 !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black: #000 !default;
+
+$amarelo: #fbb004 !default;
+$azul_marinho: #1d344a !default;
+$bege: #f4f3ef !default;
+
+// Spacing Variables
+// Change below variable if the height of the navbar changes
+$navbar-base-height: 56px;
+// Change below variable to change the width of the sidenav
+$sidenav-base-width: 250px;
+// Change below variable to change the width of the sidenav when collapsed
+$sidenav-collapsed-width: 55px;
+// Change below variable to change the height of the sticky footer
+$sticky-footer-height: 56px;
+
+/** Color Custom Theme **/
+
+$gray-bg-theme: #F1F1F1;
+$bg-color-card-car: #F5F5F5
+/** Color Theme Troca Facil **/

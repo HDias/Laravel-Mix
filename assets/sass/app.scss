@@ -1,0 +1,27 @@
+// Fonts
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
+
+// Variables
+@import "variables";
+
+//navbar
+@import "mixins.scss";
+@import "global.scss";
+@import "utilities.scss";
+@import "footer.scss";
+@import "badge_color";
+@import "buttons";
+
+// Novas cores para Background
+@import "bg_color";
+@import "color";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+
+// Páginas
+//@import "home";
+
+
+

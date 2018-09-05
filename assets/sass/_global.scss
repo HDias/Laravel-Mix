@@ -1,0 +1,237 @@
+// Global styling for this template
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.bg-blue {
+  background: $azul_marinho;
+}
+
+body.sticky-footer {
+  margin-bottom: $sticky-footer-height;
+  .content-wrapper {
+    min-height: calc(100vh - #{$sticky-footer-height} - #{$navbar-base-height});
+  }
+}
+
+body.fixed-nav {
+  padding-top: $navbar-base-height;
+}
+
+.content-wrapper {
+  min-height: calc(100vh - #{$sticky-footer-height});
+  padding-top: 1rem;
+}
+
+// Scroll to top button
+.scroll-to-top {
+  position: fixed;
+  right: 15px;
+  bottom: 3px;
+
+  display: none;
+
+  width: 50px;
+  height: 50px;
+
+  text-align: center;
+
+  color: white;
+  background: fade-out($gray-800, .5);
+
+  line-height: 45px;
+  &:focus,
+  &:hover {
+    color: white;
+  }
+  &:hover {
+    background: $gray-800;
+  }
+  i {
+    font-weight: 800;
+  }
+}
+
+img {
+  .img-logo {
+    width: 62%;
+
+  }
+}
+
+#sidenavToggler i {
+  color: white;
+}
+
+#mainNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+  color: white;
+}
+
+.bg-dark {
+  background-color: $azul_marinho !important;
+}
+
+.btn-primary {
+  color: #ffffff !important;
+}
+
+
+.max {
+  &-h {
+    &-30{
+      max-height: 30px;
+    }
+  }
+}
+
+.font {
+  &-size {
+    &-10 {
+      font-size: 10px !important;
+    }
+    &-11 {
+      font-size: 0.8rem !important;
+    }
+    &-12 {
+      font-size: 1rem !important;
+    }
+    &-14 {
+      font-size: 1.2rem !important;
+    }
+    &-20 {
+      font-size: 20px !important;
+    }
+    &-30 {
+      font-size: 30px !important;
+    }
+  }
+}
+
+.line-h {
+  &-n {
+    line-height: normal !important;
+  }
+}
+
+/** paddign custon **/
+.p {
+  &t {
+    &-10{
+      padding-top:  6rem !important;
+    }
+    &-20{
+      padding-top:  12rem !important;
+    }
+    &-30{
+      padding-top:  20rem !important;
+    }
+  }
+}
+
+.m {
+  &y {
+    &-10 {
+      margin-top: 6rem;
+      margin-bottom: 6rem;
+    }
+    &-20 {
+      margin-top: 12rem;
+      margin-bottom: 12rem;
+    }
+  }
+}
+
+.rounded {
+  &-10 {
+    border-radius: 10px !important;
+  }
+  &-20 {
+    border-radius: 20px !important;
+  }
+}
+
+/*******/
+
+.link-a {
+  text-decoration: none;
+}
+.link-a:hover {
+  text-decoration: none;
+}
+
+.text-black {
+  color: #000000 !important;
+}
+
+/** Colunas com mesam altura **/
+
+
+/** Slider **/
+.range-slider-fill {
+  background-color: red !important;
+}
+
+.custom-radio-type {
+  .input-hidden {
+    position: absolute;
+    left: -9999px;
+  }
+
+  input[type=radio]:checked + label > img {
+    padding-bottom: 5px;
+    border-bottom: 5px solid #fff;
+  }
+
+  /* Stuff after this is only to make things more pretty */
+  input[type=radio] + label > img {
+    height: 50px;
+    transition: 100ms all;
+  }
+
+  input[type=radio]:checked + label > img {
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+  }
+
+  img {
+    cursor: pointer !important;
+  }
+}
+
+.custom-checkbox-type {
+  .input-hidden {
+    position: absolute;
+    left: -9999px;
+  }
+
+  input[type=checkbox]:checked + label > img {
+    padding-bottom: 5px;
+    border-bottom: 5px solid #fff;
+  }
+
+  #vehicle:disabled + label > img {
+    cursor: no-drop !important;
+  }
+
+  /* Stuff after this is only to make things more pretty */
+  input[type=checkbox] + label > img {
+    height: 50px;
+    transition: 100ms all;
+  }
+
+  input[type=checkbox]:checked + label > img {
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+  }
+
+  img {
+    cursor: pointer !important;
+  }
+}
+
