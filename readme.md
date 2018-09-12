@@ -1,6 +1,6 @@
 # Started Project Laravel-Mix from Laravel 5.5
 
-##Defaults Packages
+## Defaults Packages
 
  - bootstrap 4
  - jquery 3.3.1
@@ -31,6 +31,6 @@
 
  More in [Laravel Docs 5.5](https://laravel.com/docs/5.5/mix)
 
- ###by
+ ### by
 
  horecio@gmail.com
